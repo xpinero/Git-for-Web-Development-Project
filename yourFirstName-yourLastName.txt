@@ -25,21 +25,35 @@
     12. How many times can I use the same class on a page? 
         As many as needed.
     13. How do I get my link to open in a new tab?
-
+        add target='_blank' inside a <a> tag.
     14. What is the alt attribute used for? 
+        alternative text to be rendered when the elements to which it is applied can not be rendered.
     15. How do I reference an id?
+        #
     16. What is the difference between a section and a div
+        The <section> tag defines sections in a document, such as chapters, headers or footers. The <div> tag is used to group block elements to format them with css.
     17. What is CSS used for? 
+        css is the language for describing thr presentation of web pages, including colors, layouts and fonts.
     18. How to we select an element? Example - every h2 on the page
+        h2{}
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        The difference between an ID and a class is that an ID can be used to identify one element, whereas a class can be used to identify more than one. Use class to identify a paragraph or paragraphs or blocks, use id's to identify a title or element inside of a class or smaller element. 
     20. How do we select classes in CSS?
+        .class
     21. How do we select a p element with a single class of “human””?
+        p .human
     22. What is a parent child selector? When would this be useful? 
+        The element>element selector is used to select elements with a specific parent.
     23. How do you select all links within a div with the class of sidebar?
+        .sidebar links
     24. What is a pseudo selector?
+        A pseudo-class is used to define a special state of an element.
     25. What do we use the change the spacing between lines?
+        line height property in css.
     26. What do we use to change the spacing between letters?
+        letter spacing property.
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transform:lowercase or uppercase or capitalize
     28. How do I add a 1px border around my div that is dotted and black?
         in the css file, div {
             border: 1px black dotted;
